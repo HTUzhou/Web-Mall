@@ -10,7 +10,7 @@
     <el-card>
       <el-row>
         <el-col>
-          <el-button type="primary">添加角色</el-button>
+          <el-button class="addButton" type="primary">添加角色</el-button>
         </el-col>
       </el-row>
       <!--        角色列表区域-->
@@ -185,6 +185,9 @@
   .vcenter {
     display: flex;
     align-items: center;
+  }
+  .addButton {
+    margin-bottom: 20px;
   }
 
 </style>
