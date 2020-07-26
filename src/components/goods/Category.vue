@@ -62,7 +62,7 @@
         </el-form-item>
         <el-form-item label="父级名称：">
 <!--          option:指定数据源-->
-          <el-cascader
+          <el-cascader width="800px" class="height: 300px"
                   v-model="selectedKeys"
                   :options="parentCateList"
                   :props="cascaderProps"

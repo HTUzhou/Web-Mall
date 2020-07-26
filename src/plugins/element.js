@@ -2,7 +2,8 @@ import Vue from 'vue'
 import {Button, Form, FormItem, Input, Message, Container, Header, Aside,
 Main, Menu, MenuItem, Submenu, Breadcrumb, BreadcrumbItem, Card,
 Option, Row, Col, Table, TableColumn, Switch, Tooltip, Pagination, Dialog,
-MessageBox, Tag, Tree, Select ,Cascader} from 'element-ui'
+MessageBox, Alert, Tag, Tree, Select ,Cascader,
+Step, Steps, Tabs, TabPane, Upload} from 'element-ui'
 
 Vue.use(Button)
 Vue.use(FormItem)
@@ -31,6 +32,12 @@ Vue.use(Tag)
 Vue.use(Tree)
 Vue.use(Select)
 Vue.use(Cascader)
+Vue.use(Alert)
+Vue.use(Steps)
+Vue.use(Step)
+Vue.use(Tabs)
+Vue.use(TabPane)
+Vue.use(Upload)
 //把弹框组件挂载到原型组件上
 Vue.prototype.$message = Message
 //挂载messagebox
