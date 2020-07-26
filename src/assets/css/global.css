@@ -24,3 +24,10 @@ html, body, #app {
 .ql-editor {
     min-height: 300px;
 }
+
+.el-pagination {
+    margin-top: 20px;
+}
+.el-cascader-panel{
+    max-height: 300px !important;
+}

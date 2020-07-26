@@ -10,6 +10,7 @@ const Roles = () => import("../components/power/Roles")
 const Category = () => import('../components/goods/Category')
 const GoodsList = () => import('../components/goods/List')
 const AddPage = () => import('../components/goods/AddPage')
+const Order = () => import('../components/order/Order')
 
 Vue.use(VueRouter)
 
@@ -54,6 +55,10 @@ const routes = [
       {
         path: '/home/goodsList/add',
         component: AddPage
+      },
+      {
+        path: '/home/ordersList',
+        component: Order
       }
     ]
   }
